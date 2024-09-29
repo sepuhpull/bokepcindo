@@ -19,7 +19,7 @@ export default async function Home({
     const query = (searchParams.q && (searchParams.q as string)) || undefined;
 
     return (
-        <div className="md:my-2"><h1>{SITENAME}</h1><h2>Video Bokep Indo Jepang Barat Terbaru</h2>
+        <div className="md:my-2">
          <Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2w264x294&u=http%3A%2F%2Fwww.juicyads.rocks" />
             {query ? (
                 <SearchCardList query={query} banner />
